@@ -1,0 +1,15 @@
+<div>
+  <h2>Detalles del libro</h2>
+</div>
+
+<div>
+  @if (book(); as b) {
+    <div>
+      <p><b>Título:</b> {{ b.titulo }}</p>
+      <p><b>Autor:</b> {{ b.autor }}</p>
+      <p><b>Año:</b> {{ b.anio }}</p>
+    </div>
+  } @else {
+    <p>Cargando libro... o no se encontró</p>
+  }
+</div>

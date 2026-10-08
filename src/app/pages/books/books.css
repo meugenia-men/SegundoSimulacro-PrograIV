@@ -1,0 +1,67 @@
+#miListado{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+
+#lista{
+    margin-top: 2%;
+    margin-block-end: 2%;
+}
+
+/* Limita el ancho de la tabla al 60% y la centra en la pantalla */
+.tabla-libros {
+  width: 60%;
+  margin: 0 auto; /* Centra la tabla horizontalmente */
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+/* Ajusta los espacios internos (padding) para separar texto y columnas */
+.tabla-libros th,
+.tabla-libros td {
+  border: 2px solid black;
+  padding: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Distribución de anchos de columnas */
+.tabla-libros .col-titulo {
+  width: 35%;
+}
+
+.tabla-libros td:nth-child(2) { /* Columna Autor */
+  width: 35%;
+}
+
+.tabla-libros td:nth-child(3) { /* Columna Año */
+  width: 10%;
+}
+
+/* Columna de acciones y botones */
+.tabla-libros .col-acciones {
+  text-align: right;
+  white-space: nowrap;
+  width: 20%;
+}
+
+/* Separación entre cada botón */
+.tabla-libros .col-acciones button {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+button{
+    padding: 6px;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+
+th{
+    color: rgb(6, 6, 156);
+}

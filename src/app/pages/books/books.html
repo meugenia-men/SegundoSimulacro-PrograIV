@@ -1,0 +1,36 @@
+<div id="miListado">
+  <div id="titulo">
+    <h2>Listado de libros</h2>
+  </div>
+
+  <div id="lista">
+    <table class="tabla-libros">
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Autor</th>
+          <th>Año</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (b of books(); track b.id) {
+          <tr>
+            <td class="col-titulo"><b>{{ b.titulo }}</b></td>
+            <td>{{ b.autor }}</td>
+            <td>{{ b.anio }}</td>
+            <td class="col-acciones">
+              <button [routerLink]="['/books', b.id]">Detalles</button>
+              <button [routerLink]="['/edit', b.id]">Editar</button>
+              <button (click)="deleteBook(b.id)">Eliminar</button>
+            </td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="4" class="sin-libros">No hay libros disponibles</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

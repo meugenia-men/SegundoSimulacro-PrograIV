@@ -1,0 +1,11 @@
+#miFooter{
+    background-color: black;
+    padding: 15px 30px;
+}
+
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}

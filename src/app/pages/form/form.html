@@ -1,0 +1,23 @@
+<div id="miFormulario">
+    <div id="tituloForm">
+        <h1>{{bookId? 'Editar libro' : 'Ingresar nuevo libro'}}</h1>
+    </div>
+    <div id="recuadroFormulario">
+        <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+            <fieldset>
+                <label for="titulo"><b>Titulo</b></label>
+                <input type="text" formControlName = "titulo">
+                        
+            </fieldset>
+            <fieldset>
+                <label for="autor"><b>Autor</b></label>
+                <input type="text" formControlName = "autor">
+            </fieldset>
+            <fieldset>
+                <label for="anio"><b>Año</b></label>
+                <input type="text" formControlName = "anio">
+            </fieldset>
+        </form>
+        <button type="button" (click)="onSubmit()">{{bookId ? 'Actualizar' : 'Ingresar'}}</button>
+    </div>
+</div>

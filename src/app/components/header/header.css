@@ -1,0 +1,13 @@
+#miHeader{
+    display: flex;
+    background-color: black;
+    justify-content: right;
+    padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}

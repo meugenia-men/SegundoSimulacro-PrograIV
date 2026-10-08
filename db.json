@@ -1,0 +1,83 @@
+{
+  "Books": [
+    {
+      "id": "3",
+      "titulo": "Ficciones",
+      "autor": "Jorge Luis Borges",
+      "anio": "1944"
+    },
+    {
+      "id": "4",
+      "titulo": "Pedro Páramo",
+      "autor": "Juan Rulfo",
+      "anio": "1985"
+    },
+    {
+      "id": "5",
+      "titulo": "Rayuela",
+      "autor": "Julio Cortázar",
+      "anio": 1963
+    },
+    {
+      "id": "6",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "anio": 1949
+    },
+    {
+      "id": "7",
+      "titulo": "Un mundo feliz",
+      "autor": "Aldous Huxley",
+      "anio": 1932
+    },
+    {
+      "id": "8",
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "anio": 1943
+    },
+    {
+      "id": "9",
+      "titulo": "Crimen y castigo",
+      "autor": "Fiódor Dostoyevski",
+      "anio": 1866
+    },
+    {
+      "id": "10",
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "anio": 1813
+    },
+    {
+      "id": "11",
+      "titulo": "La metamorfosis",
+      "autor": "Franz Kafka",
+      "anio": 1915
+    },
+    {
+      "id": "12",
+      "titulo": "El tunel",
+      "autor": "Ernesto Sabato",
+      "anio": 1948
+    },
+    {
+      "id": "13",
+      "titulo": "Ensayo sobre la ceguera",
+      "autor": "José Saramago",
+      "anio": 1995
+    },
+    {
+      "id": "14",
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "anio": "2222"
+    },
+    {
+      "id": "15",
+      "titulo": "La casa de los espíritus",
+      "autor": "Isabel Allende",
+      "anio": 1982
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
